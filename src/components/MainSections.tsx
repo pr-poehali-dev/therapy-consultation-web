@@ -73,6 +73,11 @@ const MainSections = () => {
                 <Button
                   className="w-full bg-primary hover:bg-primary/90 text-white"
                   size="lg"
+                  onClick={() => {
+                    if (section.title === "Чат с ИИ-терапевтом") {
+                      window.location.href = "/chat";
+                    }
+                  }}
                 >
                   {section.action}
                 </Button>

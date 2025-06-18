@@ -27,6 +27,7 @@ const Hero = () => {
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg therapy-shadow hover:scale-105 transition-all duration-200"
+            onClick={() => (window.location.href = "/chat")}
           >
             <Icon name="MessageCircle" size={20} className="mr-2" />
             Начать разговор
